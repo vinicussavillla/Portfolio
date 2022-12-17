@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>Vinicius de Avilla | Desenvolvedor Web Front-end</title>
+  <link rel="shortcut Icon" type="image-x/png" href="http://viniciusavilla.surge.sh/img/letter-v.png">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&amp;display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.scss">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Remix icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/13bfe62e6f.js" crossorigin="anonymous"></script>
+  <!-- Boostrap -->
+  <link href="./assets/lib/boostrap/css/boostrap.min.css" rel="stylesheet">
+
+  <!-- Font-awesome
+  <link href="./assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+  <!-- <link href="http://viniciusavilla.surge.sh/lib/ionicons/css/ionicons.min.css" rel="stylesheet"> -->
+
+  <link href="assets/css/style-purple.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="http://viniciusavilla.surge.sh/css/style.css"> -->
+  <!-- <link rel="stylesheet" href="http://viniciusavilla.surge.sh/css/all.css"> -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-564J2SJ4QP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-564J2SJ4QP');
+  </script>
+
+</head>
+
+<body id="page-top">
+
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top"><i class="fas fa-terminal"></i>Vinicius</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+          <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+          <li class="nav-item" role="presentation"><a class="nav-link" href="#tecnologias">Tecnologias</a>
+          </li>
+          <li class="nav-item">
+          <li class="nav-item" role="presentation"><a class="nav-link" href="#work">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(./assets/img/intro-bg.png)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h2 class="intro-title mb-4"></h2>
+          <p class="intro-subtitle"><span class="text-slider-items"> Vinicius de Avilla, Desenvolvedor Front-end E
+              Back-End , Iniciante em UX Design, Vinicius de Avilla, Desenvolvedor de Sofware</span><strong
+              class="text-slider"></strong></p>
+          <p style="margin-bottom: 100px;margin-top: -20px;"></p>
+          <a class="btn btn-outline-primary btn-lg" role="button"
+            style="margin-right: 25px;color: rgb(255,255,255);filter: blur(0px) grayscale(100%);"
+            href="https://www.linkedin.com/in/vinicius-avilla/">
+            <i class="fab fa-linkedin" style="font-size: 30px;"></i> linkedin</a>
+          <a class="btn btn-outline-primary btn-lg" role="button" href="https://github.com/vinicussavillla"
+            style="color: rgb(255,255,255);filter: grayscale(100%) hue-rotate(0deg) invert(0%) saturate(100%) sepia(0%);">
+            <i class="fab fa-github-square" style="font-size: 30px;"></i> Github</a>
+          <section class="setass">
+            <a id="botao" class="setaBaixo"> </a>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/ Intro Skew End /-->
+
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="col-sm-12">
+        <div class="box-shadow-full">
+
+          <div class="title-box-2 pt-4 pt-md-0">
+            <h5 class="title-left">
+              Sobre mim
+            </h5>
+          </div>
+          <div class="card">
+            <div class="card__side card__side--front">
+              <!-- Front Content -->
+              <div class="card__cont">
+                <span class="blue">alert</span>
+                <span>(<span class="green">'Hello World!'</span>)</span>
+              </div>
+            </div>
+            <div class="card__side card__side--back">
+              <!-- Back Content -->
+              <div class="card__cta">
+                <p><span class="purple">const</span> aboutMe <span class="cyan">=</span> {
+                  <br />
+                  <span class="space red">name</span>
+                  <span class="cyan">:</span> <span class="green">'Vinicius de Avilla'</span>,
+                  <br />
+                  <span class="space red">Idade</span>
+                  <span class="cyan">:</span> <span class="green">'21 anos</span>',
+                  <br />
+                  <span class="space red">position</span>
+                  <span class="cyan">:</span>
+                  <span class="green">'Programador PHP'</span>,
+                  <br />
+                  <span class="space red">website</span><span class="cyan">:</span> <span
+                    class="green">'vinicius.github.io'</span>
+                  <br />
+                  };
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="more-info">
+            <p class="lead"> <b style="color:#006400;">Olá me chamo Vinicius</b>
+
+            <p class="lead"> <b style="color:#6610f2;"></b>
+            </p>
+            <p class="lead">Developer web <a target="__blank" href="https://www.php.net/"><b
+                  style="color:#6610f2;">php</b> </a> framework laravel.
+              busco estar sempre se atualizando na área, tenho conhecimento de ferramentas de Gestão Ágil como Kanban,
+              trelo e Jira.
+            </p>
+            <br>
+
+            <a class="btn-curriculo" target="__blank" href="/viniciusavilla.surge.sh/assets/img/Vinicius De Avilla-Currículo.pdf" type="application/pdf" width="100%" height="100%"><i class="fa-solid fa-file-arrow-down"></i> <b
+                style="color:#000000;">Curriculo</b> 
+            </a>
+      
+            <br>
+            <br>
+
+            <br>
+            <p class="lead"><i class="fa-solid fa-graduation-cap"></i> GRADUAÇÃO - Gestão da Tecnologia da Informação
+            <p class="lead"> <a href="https://www.faecpr.edu.br/site/" style="color: rgb(165, 164, 164)" ;> FAEC -
+                FACULDADE EDUCACIONAL DE COLOMBO</a>
+            </p>
+            <b style="color: rgb(165, 164, 164)" ;> 2020 - 2022 </b>
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--/ Section Portfolio End /-->
+    <!-- 
+    / Intro Skew End / -->
+    <section id="tecnologias" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+
+            <div class="title-box-2 pt-4 pt-md-0">
+              <h5 class="title-left">
+                Tecnologias
+              </h5>
+              <div class="flex">
+                <h2 class="item"> <img src="./assets/icon/php-original.svg" alt="Icon_php"> Php</h2>
+                <h2 class="item"><img src="./assets/icon/laravel.svg" alt="Icon_laravel"> Laravel</h2>
+                <h2 class="item"><img src="./assets/icon/java-original.svg" alt="Icon_java"> Java</h2>
+                <h2 class="item"><img src="./assets/icon/postgresql.svg" alt="Icon_sql"> PostgreSQL</h2>
+                <h2 class="item"><img src="./assets/icon/javascript.svg" alt="Icon_Js"> JavaScript</h2>
+                <h2 class="item"><img src="./assets/icon/react.svg" alt="Icon_react"> React</h2>
+                <h2 class="item"><img src="./assets/icon/file-type-html.svg" alt="Icon_html"> Hmtl</h2>
+                <h2 class="item"><img src="./assets/icon/file-type-css.svg" alt="Icon_css"> Css</h2>
+                <h2 class="item"><img src="./assets/icon/bootstrap.svg" alt="Icon_bootstrap"> Bootstrap</h2>
+                <h2 class="item"><img src="./assets/icon/vue.svg" alt="Icon_vue"> Vue</h2>
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <!--/ Section Portfolio Star /-->
+      <section id="work" class="portfolio-mf sect-pt4 route">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a" style="color: white;">
+                  Portfólio
+                </h3>
+                <p class="subtitle-a" style="color: rgb(177, 174, 174)">
+                  Esses são alguns dos meus trabalhos concluidos.
+                </p>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <!-- projeto 1 adicionado -->
+
+            <div class="col-md-4">
+              <div class="work-box">
+                <div class="work-img">
+                  <img src="./assets/img/grud_foto1.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Grud Laravel - Livewire</h2>
+                      <div class="w-more">
+
+                        <p class="card-text"> Sistema de Upload, Edit, Delete de produtos </p>
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="w-like">
+
+                        <a class="btn btn-outline-dark" target="__blank" href="https://github.com/vinicussavillla/Grud-LIvewire"
+                        role="button"><i class="fa-brands fa-github"></i> Código</a>
+
+                      <a class="btn btn-outline-dark" target="__blank" href=""
+                        role="button"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site</a>
+                
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+
+            <!--projeto 2 adicionado-->
+           
+            <div class="col-md-4">
+              <div class="work-box">
+                <div class="work-img">
+                  <img src="./assets/img/grud_foto1.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Sistema de Login e Casdastro</h2>
+                      <div class="w-more">
+
+                        <p class="card-text"> Sistema de login e cadastro com Laravel </p>
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="w-like">
+
+                      <a class="btn btn-outline-dark" target="__blank" href=""
+                        role="button"><i class="fa-brands fa-github"></i> Código</a>
+
+                      <a class="btn btn-outline-dark" target="__blank" href=""
+                        role="button"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <!--projeto 3 adicionado-->
+           
+            <div class="col-md-4">
+              <div class="work-box">
+                <div class="work-img">
+                  <img src="./assets/img/grud_foto1.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Grud Laravel - Livewire</h2>
+                      <div class="w-more">
+
+                        <p class="card-text"> Sistema de Upload, Edit, Delete de produtos </p>
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="w-like">
+
+                      <a class="btn btn-outline-dark" target="__blank" href=""
+                        role="button"><i class="fa-brands fa-github"></i> Código</a>
+
+                      <a class="btn btn-outline-dark" target="__blank" href=""
+                        role="button"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site</a>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Projeto 04 adicionado-->
+           
+            <div class="col-md-4">
+              <div class="work-box">
+                <div class="work-img">
+                  <img src="./assets/img/grud_foto1.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Grud Laravel - Livewire</h2>
+                      <div class="w-more">
+
+                        <p class="card-text"> Sistema de Upload, Edit, Delete de produtos </p>
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="w-like">
+
+                      <a class="btn btn-outline-dark" target="__blank" href=""
+                        role="button"><i class="fa-brands fa-github"></i> Código</a>
+
+                      <a class="btn btn-outline-dark" target="__blank" href=""
+                        role="button"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site</a>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <!--projeto 5 adicionado-->
+            
+            <div class="col-md-4">
+              <div class="work-box">
+                <div class="work-img">
+                  <img src="./assets/img/grud_foto1.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Grud Laravel - Livewire</h2>
+                      <div class="w-more">
+
+                        <p class="card-text"> Sistema de Upload, Edit, Delete de produtos </p>
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="w-like">
+
+                      <a class="btn btn-outline-dark" target="__blank" href=""
+                        role="button"><i class="fa-brands fa-github"></i> Código</a>
+
+                      <a class="btn btn-outline-dark" target="__blank" href=""
+                        role="button"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site</a>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <!--projeto 5 adicionado-->
+
+            <div class="col-md-4">
+              <div class="work-box">
+                <div class="work-img">
+                  <img src="./assets/img/grud_foto1.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Grud Laravel - Livewire</h2>
+                      <div class="w-more">
+
+                        <p class="card-text"> Sistema de Upload, Edit, Delete de produtos </p>
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="w-like">
+
+                        <a class="btn btn-outline-dark" target="__blank" href=""
+                          role="button"><i class="fa-brands fa-github"></i> Código</a>
+
+                        <a class="btn btn-outline-dark" target="__blank" href=""
+                          role="button"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site</a>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                
+            </div>
+          </div>
+
+      </section>
+
+
+
+
+      <!--/ Section Portfolio End /-->
+
+      <!--/ Section Contact-Footer Star /-->
+      <section class="paralax-mf footer-paralax sect-mt4" style="background-image: url(./assets/img/overlay-bg.png)">
+        <div class="overlay-mf"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="contact-mf">
+                <div id="contact" class="box-shadow-full">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="title-box-2 pt-4 pt-md-0">
+                        <h5 class="title-left">
+                          Entre em contato
+                        </h5>
+                      </div>
+                      <div class="more-info">
+                        <p class="lead">
+                          Aqui eu deixo algumas formas de me contatar.
+                        </p>
+                        <ul class="list-ico">
+
+                          <li><span class="fa-solid fa-phone"></span> (41) 9 9779-2105</li>
+                          <li><span class="fa-solid fa-envelope"></span> Viniciusavilla2020@hotmail.com</li>
+                        </ul>
+                      </div>
+                      <div class="socials">
+                        <ul>
+                          <li><a target="_blank" href="https://github.com/vinicussavillla"><span class="ico-circle"><i
+                                  class="fa-brands fa-github"></i></span></a></li>
+                          <li><a target="_blank" href="https:///"><span class="ico-circle"><i
+                                  class="fa-brands fa-linkedin"></i></span></a></li>
+                          <li><a target="_blank"
+                              href="https://api.whatsapp.com/send?phone=5541997792105&text=Ol%C3%A1%20Vinicius%2C%20consegui%20seu%20n%C3%BAmero%20atrav%C3%A9s%20do%20seu%20site%20portf%C3%B3lio..."><span
+                                class="ico-circle"><i class="fa-brands fa-whatsapp"></i></span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="copyright-box">
+                  <p class="copyright">
+                    <!-- &copy; Copyright  -->
+                    Copyright <strong> Vincius de avilla . © 2020 Todos Direitos Reservados.</strong>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+      <!--/ Section Contact-footer End /-->
+
+
+      <div id="preloader"></div>
+
+      <!-- JavaScript Libraries -->
+      <script src="./assets/lib/jquery/jquery.min.js"></script>
+      <script src="./assets/lib/boostrap/js/bootstrap.min.js"></script>
+      <script src="./assets/lib/easing/easing.min.js"></script>
+      <script src="./assets/lib/jquery/jquery.conterup.js"></script>
+      <script src="./assets/lib/typed/typed.min.js"></script>
+
+
+      <!-- Template Main Javascript File -->
+      <script src="./assets/js/all.min.js"></script>
+      <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
