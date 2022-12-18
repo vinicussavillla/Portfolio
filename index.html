@@ -82,8 +82,8 @@
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
           <h2 class="intro-title mb-4"></h2>
-          <p class="intro-subtitle"><span class="text-slider-items"> Vinicius de Avilla, Desenvolvedor Front-end E
-              Back-End , Iniciante em UX Design, Vinicius de Avilla, Desenvolvedor de Sofware</span><strong
+          <p class="intro-subtitle"><span class="text-slider-items"> Vinicius de Avilla, Desenvolvedor PHP , Iniciante em UX Design, Denvolvedor Full-Stack
+          </span><strong
               class="text-slider"></strong></p>
           <p style="margin-bottom: 100px;margin-top: -20px;"></p>
           <a class="btn btn-outline-primary btn-lg" role="button"
@@ -156,9 +156,13 @@
             </p>
             <br>
 
-            <a class="btn-curriculo" target="__blank" href="/viniciusavilla.surge.sh/assets/img/Vinicius De Avilla-Currículo.pdf" type="application/pdf" width="100%" height="100%"><i class="fa-solid fa-file-arrow-down"></i> <b
+            <!-- <a class="btn-curriculo" target="__blank" href="./assets/img/Vinicius De Avilla-Currículo 1 (2).pdf" type="application/pdf" width="100%" height="100%"><i class="fa-solid fa-file-arrow-down"></i> <b
                 style="color:#000000;">Curriculo</b> 
-            </a>
+            </a> -->
+            
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              <i class="fa-solid fa-file-arrow-down"></i> Curriculo
+            </button>
       
             <br>
             <br>
@@ -203,8 +207,6 @@
 
               </div>
             </div>
-
-
           </div>
         </div>
       </div>
@@ -213,7 +215,6 @@
       <!--/ Section Portfolio Star /-->
       <section id="work" class="portfolio-mf sect-pt4 route">
         <div class="container">
-
           <div class="row">
             <div class="col-sm-12">
               <div class="title-box text-center">
@@ -523,5 +524,30 @@
       <script src="./assets/js/main.js"></script>
 
 </body>
+
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-danger" id="exampleModalLongTitle">Curriculo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <iframe
+      src="./assets/img/Vinicius De Avilla-Currículo 1 (2).pdf"
+      frameBorder="0"
+      height="100%"
+      width="100%">
+    </iframe>
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Sair</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 </html>
