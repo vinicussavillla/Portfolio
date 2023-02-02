@@ -778,10 +778,13 @@ background: linear-gradient(90deg, rgba(47,47,47,1) 0%, rgba(27,27,27,1) 19%, rg
    }
    
    .work-content {
-     padding: 2rem 3% 1rem 4%;
-   
-   
+     padding: 1rem 3% 1rem 4%;
    }
+
+   .work-contents{
+    padding: 6rem 3% 1rem 4%;
+   }
+
    
    .work-content .w-more {
      color: #4e4e4e;
@@ -793,7 +796,7 @@ background: linear-gradient(90deg, rgba(47,47,47,1) 0%, rgba(27,27,27,1) 19%, rg
    }
    
    .work-content .w-like {
-     font-size: 2.5rem;
+     font-size: 2.2rem;
      color: #1b3200;
      float: right;
    
