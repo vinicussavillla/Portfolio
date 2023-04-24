@@ -3,6 +3,11 @@
     position: relative;
 }
 
+
+.link-graduacao:hover{
+   color: #007bff !important;
+}
+
 .setaBaixo{
     cursor: pointer;
     width: 60px;
